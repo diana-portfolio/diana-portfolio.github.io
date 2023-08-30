@@ -1,0 +1,12 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #1c1c23;
+}
+
+
+.coverimg img{
+    height: 108vh;
+}
