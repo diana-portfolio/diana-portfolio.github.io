@@ -95,4 +95,12 @@ p {
     width: 100%;
 }
 
+.inlife img{
+    -webkit-animation: rotation 2s linear infinite;
 
+}
+
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
