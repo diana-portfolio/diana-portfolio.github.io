@@ -252,6 +252,7 @@ p {
 #inlife_title{
     position: relative;
     right: -3%;
+    top: 1vw;
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-size: 7vw;
@@ -272,6 +273,18 @@ p {
 .inlife_logo{
     text-align: center;
     height: 37vw;
+}
+
+#inlife_logo_text{
+    text-align: right;
+    width: 20%;
+    float: right;
+    margin-right: 23vw;
+    font-style: italic;
+}
+
+.inlife_intro{
+    margin-bottom: 15vw;
 }
 
 #shapes1{
@@ -295,6 +308,7 @@ p {
     display: flex;
     margin-left: 5vw;
     margin-right: 5vw;
+    background-color: ;
 }
 
 .inlife_about_text{
@@ -311,4 +325,200 @@ p {
 
 #inlife_video{
     width: 55%;
+}
+
+#post_backwards{
+    margin: 0;
+    padding: 0;
+}
+#posts_backwards h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 9vw;
+    width: 28%;
+    margin: 0;
+    transform: scale(1, -1);
+    margin-top: 10vw;
+    position: relative;
+    left: -0.5%;
+   
+}
+
+.ig{
+    background-color: #EDF1F8;
+    margin: 0;
+    display: flex;
+    transform: translateY(-16%);
+    display: block;
+}
+
+.ig_intro{
+    display: flex;
+}
+
+.ig_shapes{
+    width: 100%;
+    height: 13.6vw;
+    text-align: right;
+    position: relative;
+    top: -3.2vw;
+}
+
+#ig_shapes{
+    width: 20%;
+}
+
+.ig_intro h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 9vw;
+    width: 28%;
+    color: #1d9afa;
+    margin: 0;
+    position: relative;
+    left: -0.5%;
+    top: -2.2vw;
+}
+
+#social_media{
+    width: 35%;
+    height: 20%;
+    margin-top: 1vw;
+    position: relative;
+    left: 2%;
+}
+
+.ig_intro_posts{
+    padding-top: 4vw;
+    display: flex;
+    margin-right: 5vw;
+    background-color: #EDF1F8;
+    width: 100%;
+    float: left;
+    transform: translateY(-2%);
+}
+
+.ig_intro_text{
+    margin: auto;
+    margin-right: 7vw;
+    margin-left: 5vw;
+    position: relative;
+    top: -1vw;
+}
+
+.ig_intro_text h1{
+    color: #2845c9;
+    margin-bottom: 1vw;
+}
+
+.ig_intro_text p{
+    color: #1d9afa;
+}
+
+#ig_img{
+    width: 60%;
+    margin-left: 5vw;
+}
+
+.ig_intro_text img{
+    width: 95%;
+    margin-bottom: 1.5vw;
+}
+
+.ig_posts{
+    width: 100%;
+    background: #EDF1F8;
+    padding-bottom: 8vw;
+}
+
+.ig_posts img{
+    width: 100%;
+    padding-top: 5vw;
+}
+
+#ig_2{
+    width: 60%;
+    margin-left: 5vw;
+    padding-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+#ig_3{
+    width: 78%;
+    margin-right: 5vw;
+    margin-left: 12vw;
+    transform: translateY(-5%);
+}
+
+#ig_separador1{
+    width: 10%;
+    position: relative;
+    top: 2vw;
+    left: -5%;
+}
+
+.ig_posts p{
+    margin-top: 1vw;
+    color: #1d9afa;
+    width: 18%;
+    text-align: right;
+    position: relative;
+    top: -5vw;
+    left: 40vw;
+}
+
+.ig_4{
+    width: 85%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5vw;
+}
+
+.ig_icons img{
+    display: block;
+}
+
+#ig_separador2{
+    width: 10%;
+    margin-top: 10vw;
+    margin-left: 7vw;
+}
+
+#highlight_icons{
+    margin-left: 7vw;
+    width: 25%;
+    padding: 0;
+    margin-top: 1.5vw;
+}
+
+.highlight_icons{
+    display: flex;
+    margin-left: 7vw;
+    margin-right: 15vw;
+    justify-content: space-between;
+}
+
+.highlight_icons_ind{
+    width: 15%;
+}
+
+.highlight_icons_ind img{
+   width: 80%;
+}
+
+.highlight_icons_ind p{
+    color: #2845c9;
+    text-align: center;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 2vw;
+}
+
+.highlight_icons2{
+    display: flex;
+    margin-left: 15vw;
+    margin-right: 7vw;
+    justify-content: space-between;
 }
